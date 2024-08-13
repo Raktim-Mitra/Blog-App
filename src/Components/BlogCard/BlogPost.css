@@ -1,0 +1,55 @@
+/* BlogPost.css */
+
+.blog-post {
+    max-width: 800px; /* Constrain the width of the post content */
+    margin: 40px auto; /* Center the post and add margin at the top and bottom */
+    padding: 20px; /* Inner spacing */
+    background-color: #ffffff; /* White background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  .blog-title {
+    font-size: 2rem; /* Large font size for the title */
+    color: #333; /* Dark gray text */
+    margin-bottom: 20px; /* Space below the title */
+    line-height: 1.2; /* Tighter line height for titles */
+  }
+  
+  .blog-author {
+    font-size: 1rem; /* Standard font size */
+    color: #777; /* Lighter gray for author */
+    margin-bottom: 30px; /* Space below the author */
+  }
+  
+  .blog-content {
+    font-size: 1.125rem; /* Slightly larger font size for content */
+    color: #555; /* Medium gray text */
+    line-height: 1.8; /* Increase line height for readability */
+    margin-bottom: 20px; /* Space at the bottom */
+  }
+  
+  .blog-content p {
+    margin-bottom: 20px; /* Space between paragraphs */
+  }
+  
+  .blog-content img {
+    max-width: 100%; /* Make images responsive */
+    border-radius: 4px; /* Slightly rounded corners for images */
+    margin-bottom: 20px; /* Space below images */
+  }
+  
+  @media (max-width: 600px) {
+    .blog-post {
+      padding: 15px; /* Reduce padding on smaller screens */
+    }
+  
+    .blog-title {
+      font-size: 1.5rem; /* Slightly smaller title font */
+    }
+  
+    .blog-content {
+      font-size: 1rem; /* Smaller font size for content */
+    }
+  }
+  
